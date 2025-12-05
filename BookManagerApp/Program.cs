@@ -41,7 +41,7 @@ namespace BookManagerApp
             }
         }
 
-        // ახალი წიგნის დამატება
+        // adds new book
         static void AddBook(BookManager bookManager)
         {
             Console.Write("Enter the book title: ");
@@ -67,7 +67,7 @@ namespace BookManagerApp
             bookManager.AddBook(title, author, year);
         }
 
-        // წიგნის ძიება სათაურის მიხედვით
+        // search book by title
         static void SearchBook(BookManager bookManager)
         {
             Console.Write("Enter the title to search: ");
